@@ -13,6 +13,7 @@ $(document).ready(function () {
     lines.push(["email", "<a href='mailto:fabricated@cafedevogel.nl' style='color: #00FF00'>fabricated@cafedevogel.nl</a>"]);
     lines.push(["git pull", "<a href='https://github.com/fabr1cated/Website' style='color: #00FF00' target='_blank'>https://github.com/fabr1cated/Website</a>"]);
     lines.push(["artists", "Will Wood, Bo Burnham, ABBA"]);
+    lines.push(["minecraft", "IGN: Fabr1cated"]);
     var commandList = "command list:<br/>&nbsp;&nbsp;&nbsp;&nbsp;";
     for (i = 0; i < lines.length; i++) {
         commandList += lines[i][0];
