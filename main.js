@@ -5,7 +5,7 @@ var currentCommand = 0;
 $(document).ready(function () {
     terminal = $("#terminal");
     startCursorFlash();
-    lines.push(["cd /Fabricated", "Welcome to the underworld..."]);
+    lines.push(["cd Fabricated", "Welcome to the underworld..."]);
     lines.push(["name", "Fabricated or Classic"]);
     lines.push(["occupation", "Software Engineer"]);
     lines.push(["location", "Your root directory"]);
