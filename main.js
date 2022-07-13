@@ -14,6 +14,7 @@ $(document).ready(function () {
     lines.push(["git pull", "<a href='https://github.com/fabr1cated/Website' style='color: #00FF00' target='_blank'>https://github.com/fabr1cated/Website</a>"]);
     lines.push(["artists", "Will Wood, Bo Burnham, ABBA"]);
     lines.push(["minecraft", "IGN: Fabr1cated"]);
+    lines.push(["projects", "<a href='https://github.com/fabr1catedinc/Fabr1catedInstaller' style='color: #00FF00'>Fabr1catedInstaller</a> and <a href='https://github.com/fabr1catedinc/Fabr1catedMod' style='color: #00FF00'>Fabr1catedMod</a>"]);
     var commandList = "command list:<br/>&nbsp;&nbsp;&nbsp;&nbsp;";
     for (i = 0; i < lines.length; i++) {
         commandList += lines[i][0];
